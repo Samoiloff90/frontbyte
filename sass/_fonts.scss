@@ -1,1 +1,50 @@
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url('../fonts/Roboto-Light/Roboto-Light.eot');
+  src: url('../fonts/Roboto-Light/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Light/Roboto-Light.woff') format('woff'),
+    url('../fonts/Roboto-Light/Roboto-Light.ttf') format('truetype'),
+    url('../fonts/Roboto-Light/Roboto-Light.otf') format("otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
 
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('../fonts/Roboto-Bold/Roboto-Bold.eot');
+  src: url('../fonts/Roboto-Bold/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Bold/Roboto-Bold.woff') format('woff'),
+    url('../fonts/Roboto-Bold/Roboto-Bold.ttf') format('truetype'),
+    url('../fonts/Roboto-Bold/Roboto-Bold.otf') format("otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'Roboto-Black';
+  src: url('../fonts/Roboto-Black/Roboto-Black.eot');
+  src: url('../fonts/Roboto-Black/Roboto-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Black/Roboto-Black.woff') format('woff'),
+    url('../fonts/Roboto-Black/Roboto-Black.ttf') format('truetype'),
+    url('../fonts/Roboto-Black/Roboto-Black.otf') format("otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+
+@mixin Light {
+  font-family: 'Roboto-Light', sans-serif;
+  font-weight: 300;
+}
+
+@mixin bold {
+  font-family: 'Roboto-Bold', sans-serif;
+  font-weight: 700;
+}
+
+@mixin Black {
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 900;
+}
