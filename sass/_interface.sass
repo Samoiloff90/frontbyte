@@ -3,22 +3,34 @@
 body
 	margin: 0
   color: $main-text
+  display: flex
+  align-items: center
+  flex-direction: column
   +Light
-img
-  max-width: 100%
-p 
-	margin: 0
-ul, li
-	display: block
-	padding: 0
-	margin: 0
-h1, h2, h3, h4, h5, h6
-	padding: 0;
-	margin: 0;
 .b-container
-  width: 1180px
+  max-width: 1180px
   margin: 0 auto
-
+  overflow-x: hidden
+.b-title
+  +Black
+  margin: 0px
+  color: $main-color
+  &__main
+    margin-bottom: 20px
+.b-text
+  +Light
+  color: $main-text
+  margin: 0px
+  line-height: 1.33
+.b-subtitle
+  +Black
+  color: $main-text
+  text-transform: uppercase
+  margin: 0px
+.b-menu 
+  color: $main-color
+  font-size: 15px
+  +Light
   // hamburger
 .hamburger
   width: 20px
@@ -30,13 +42,38 @@ h1, h2, h3, h4, h5, h6
     background-color: $main-color
     margin-bottom: 2px
     transition: 0.5s all
-  // &__active
-  //   span
-  //     margin-bottom: -2px
-  //     &:nth-last-child(1)
-  //       transform: translateY(3px) rotate(-45deg)
-  //     &:nth-last-child(2)
-  //       display: none
-  //     &:nth-last-child(3)
-  //     transform: translateY(3px)  rotate(45deg)
-        
+// header
+.b-nav
+  display: flex
+  align-items: center
+  justify-content: space-between
+.b-header-subtitle
+  +Light
+  color: $main-color
+  margin: 0px
+.b-link
+  display: flex
+  justify-content: space-between
+  align-items: center
+  text-decoration: none
+  &__btn
+      padding: 0px 30px 30px 0px
+  &__text
+    +Light
+    color: $main-color
+    font-size: 15px
+    line-height: 1.33
+  &:after
+    content: ""
+    background: url(../img/ic-next.svg)
+    display: block
+    color: #ffffff
+    width: 30px
+    height: 30px
+
+
+
+
+
+    
+
