@@ -2,6 +2,7 @@
   box-sizing: border-box
 body
 	margin: 0
+  color: $main-text
   +Light
 img
   max-width: 100%
@@ -17,3 +18,25 @@ h1, h2, h3, h4, h5, h6
 .b-container
   width: 1180px
   margin: 0 auto
+
+  // hamburger
+.hamburger
+  width: 20px
+  height: 13px
+  span
+    display: block
+    height: 2px
+    width: 100%
+    background-color: $main-color
+    margin-bottom: 2px
+    transition: 0.5s all
+  // &__active
+  //   span
+  //     margin-bottom: -2px
+  //     &:nth-last-child(1)
+  //       transform: translateY(3px) rotate(-45deg)
+  //     &:nth-last-child(2)
+  //       display: none
+  //     &:nth-last-child(3)
+  //     transform: translateY(3px)  rotate(45deg)
+        
