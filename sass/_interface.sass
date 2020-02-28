@@ -15,7 +15,11 @@ body
   +Black
   margin: 0px
   color: $main-color
-  &__main
+  &__header
+    +Black
+    margin: 0px
+    font-size: 25px
+    color: $main-color
     margin-bottom: 20px
 .b-text
   +Light
@@ -23,16 +27,15 @@ body
   margin: 0px
   line-height: 1.33
 .b-subtitle
-  +Black
+  +Light
   color: $main-text
-  text-transform: uppercase
   margin: 0px
 .b-menu 
   color: $main-color
   font-size: 15px
   +Light
   // hamburger
-.hamburger
+.b-hamburger
   width: 20px
   height: 13px
   span
@@ -67,9 +70,41 @@ body
     content: ""
     background: url(../img/ic-next.svg)
     display: block
-    color: #ffffff
+    color: $light-color
     width: 30px
     height: 30px
+// main
+.b-title__main
+  color: $main-text
+// aspects
+.b
+  &-aspects
+    &-list
+      padding: 0
+      &__item
+        display: flex
+        align-items: center
+      &__box
+        width: 50px
+        height: 50px
+        border: solid 1px $light-color
+        border-radius: 50%
+        margin-right: 20px
+        display: flex
+        justify-content: center
+        align-items: center
+      &__one
+        background-color: $rounded-color1
+        padding: 11px 11px 9px 11px
+      &__two
+        background-color: $rounded-color2
+        padding: 9px 16px 8px 20px
+      &__three
+        background-color: $rounded-color3
+        padding: 10px 9px 15px 
+
+
+
 
 
 
