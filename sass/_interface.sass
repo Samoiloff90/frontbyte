@@ -15,12 +15,20 @@ body
   +Black
   margin: 0px
   color: $main-color
+  font-stretch: normal
+  font-style: normal
+  line-height: 1.08
+  letter-spacing: -0.75px
   &__header
     +Black
     margin: 0px
     font-size: 25px
     color: $main-color
     margin-bottom: 20px
+    font-stretch: normal
+    font-style: normal
+    line-height: 1.08
+    letter-spacing: -0.75px
 .b-text
   +Light
   color: $main-text
@@ -102,11 +110,27 @@ body
       &__three
         background-color: $rounded-color3
         padding: 10px 9px 15px 
-
-
-
-
-
+  &-do__title
+    color: $highlighted-title
+.b
+  &-services
+    &__item
+      position: relative
+      font-family: Roboto-Light
+      font-weight: 300
+      font-stretch: normal
+      font-style: normal
+      letter-spacing: normal
+      color:  #2d2d42
+      word-wrap: break-word
+      margin-bottom: 20px
+      &:before
+        content: ""
+        display: block
+        height: 1px
+        width: 30px
+        background-color: #64cae1
+        position: absolute
 
 
 
