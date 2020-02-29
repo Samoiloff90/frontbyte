@@ -21,6 +21,7 @@
   .b-header
     background-color: $main-text
     padding-top: 30px
+    padding-bottom: 30px
     &-subtitle
       margin: 0px 0px 100px 0px
       font-size: 15px
@@ -40,13 +41,15 @@
     display: none
   .b-link
   // professional
-  .b-main
-    padding-top: 100px
+  .b
+    &-professional
+    &-aspects
+      padding-top: 30px
   .b
     &-services
       list-style-type: none
       margin: 0px
-      padding: 0px
+      padding: 0px 0px 40px 0px
       &__item
         font-size: 15px  
         line-height: 1.33
@@ -57,7 +60,38 @@
           top: 9px
           left: 0px
           width: 30px
-    
-    
-    
+  .b-link
+    &__services,
+    &__work
+      padding: 20px 30px
+      background-color: $element-color
+// Work
+.b
+  &-work
+    &__title
+      b-work__info
+      
+    &__subtitle
+      margin: 0px
+    &__item
+      background-color: $light-color
+      &-invisible
+        display: none
+    &__info
+      padding: 30px
+      &-title
+        +Black
+        font-size: 10px
+        letter-spacing: 1.33px
+        margin-bottom: 20px
+        font-stretch: normal
+        font-style: normal
+        text-transform: uppercase
+        margin: 0px 0px 20px 0px
+    &__title
+      margin-bottom: 20px
+      color: $main-text
+    &__wrap
+      &-title
+        padding: 30px
   
