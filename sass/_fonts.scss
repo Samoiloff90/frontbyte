@@ -39,12 +39,12 @@
   font-weight: 300;
 }
 
-@mixin bold {
+@mixin Bold {
   font-family: 'Roboto-Bold', sans-serif;
   font-weight: 700;
 }
 
 @mixin Black {
-  font-family: 'Museo Sans Bold', sans-serif;
+  font-family: 'Roboto-Black', sans-serif;
   font-weight: 900;
 }
