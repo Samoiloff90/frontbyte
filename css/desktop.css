@@ -54,6 +54,22 @@
     left: -60px;
   }
 
+  .b-work__list {
+    padding: 20px 0px;
+    justify-content: space-between;
+  }
+
+  .b-work__list>.b-work__item {
+    width: calc(50% - 10px);
+  }
+
+  .b-work__list>.b-work__item:nth-child(odd)>.b-work__info::before {
+    display: none;
+  }
+
+  .b-work__info-lowdown {
+    padding: 40px;
+  }
   .b-work__wrap-title {
     padding-bottom: 90px;
   }
