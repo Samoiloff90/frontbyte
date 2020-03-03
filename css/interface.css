@@ -235,11 +235,16 @@ body {
   background-color: #f4f4f7;
 }
 
+.b-work__item {
+  font-size: 0px;
+}
+
 .b-work-img {
   overflow: hidden;
 }
 
 .b-work-img__pic {
+  object-fit: cover;
   width: 100%;
 }
 
