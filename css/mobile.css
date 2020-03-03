@@ -194,14 +194,18 @@
     text-transform: uppercase;
     margin: 0px 0px 20px 0px;
   }
-
+/* Work */
+  .b-work {
+    padding-top: 30px;
+  }
   .b-work__title {
     margin-bottom: 20px;
     color: #2d2d42;
   }
 
-  .b-work__wrap-title {
-    padding: 30px;
+  .b-work__container {
+    padding: 0px 30px;
+    margin-bottom: 30px;
   }
 
   .b-contacts__wrap {
@@ -237,6 +241,5 @@
     font-size: 15px;
     line-height: 1.33;
   }
+  /* Contacts */
 }
-
-decided to redo the whole project in pure css
