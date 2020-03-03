@@ -293,7 +293,33 @@ body {
   margin: 0;
 }
 
+.b-social {
+  z-index: 1;
+  margin-bottom: 220px;
+  display: flex;
+}
+
+.b-social__link {
+  display: block;
+  text-decoration: none;
+  margin-right: 25px;
+  width: 30px;
+  height: 30px;
+}
+
+ .b-social__link:last-child {
+   margin-right: 0;
+ }
+ .b-address-wrap {
+   position: relative;
+   z-index: 1;
+ }
+
 .b-address {
+  margin-bottom: 30px;
+}
+
+.b-adress:first-child {
   margin-bottom: 30px;
 }
 
@@ -377,3 +403,5 @@ body {
   font-family: 'Roboto-Light', sans-serif;
   font-weight: 300;
 }
+
+/* #64cae1 */
