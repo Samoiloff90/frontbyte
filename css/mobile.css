@@ -220,6 +220,10 @@
     padding: 30px 0px 0px 0px;
   }
 
+  .b-modification-big {
+    display: none;
+  }
+
 
   /* .b-contacts__wrap {
     padding: 30px 0px 40px 0px;
