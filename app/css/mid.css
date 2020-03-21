@@ -196,7 +196,7 @@
   }
 
   .b-link__btn {
-    max-width: 480px;
+    /* max-width: 480px; */
     border: solid 1px #ffffff;
     padding: 25px 50px 25px 100px;
     border-color: rgba(225, 225, 225, 0.1);
@@ -577,6 +577,8 @@
     /* padding: 25px 80px 25px 18px; */
     font-size: 20px;
     line-height: 1.5;
+    padding: 0px;
+    margin-left: 110px;
     /* padding-left: 110px; */
   }
 }

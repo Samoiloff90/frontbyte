@@ -207,6 +207,7 @@
 
   .b-footer__container {
     padding: 0px;
+    
   }
 
   .b-footer {
@@ -221,6 +222,7 @@
   }
 
   .b-copyright {
-    padding-right: 152px;
+    padding: 0px;
+    margin-left: 110px;
   }
 }
