@@ -213,7 +213,7 @@
   }
 
   .b-link__btn {
-    max-width: 480px;
+    /* max-width: 480px; */
     border: solid 1px #ffffff;
     padding: 25px 50px 25px 100px;
     border-color: rgba(225, 225, 225, 0.1);
@@ -632,6 +632,7 @@
   .b-copyright {
     font-size: 20px;
     line-height: 1.5;
-    padding-right: 50px;
+    padding: 0px;
+    margin-left: 110px;
   }
 }
