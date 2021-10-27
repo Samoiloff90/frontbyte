@@ -1,6 +1,6 @@
-<h4 align="center">
+<h3 align="center">
   Frontbyte
-</h4>
+</h3>
 
 Адаптиваня верстка одной страницы сайта Frontbyte.
 
